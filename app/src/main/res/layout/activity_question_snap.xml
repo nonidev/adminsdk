@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipeRefresh"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        tools:context=".QuestionSnap">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/company"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo"
+                android:id="@+id/icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SarkariRank.com"
+                android:layout_toRightOf="@+id/icon"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/lato_regular"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/company">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvquestion"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/lato_regular"
+                android:text="A garden is 70 m long and 30 m wide. It is surrounded by a footpath 5 m wide outside. What is the area of the path?"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/tvquestion">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#f2f2f2"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    >
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:id="@+id/a1"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/border_circle"
+                        android:text="A"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/a1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/option1"
+                        android:textSize="16sp"
+                        android:textColor="#666666"
+                        />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#f2f2f2"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    >
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:id="@+id/a2"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/border_circle"
+                        android:text="B"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/a2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/option2"
+                        android:textSize="16sp"
+                        android:textColor="#666666"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#f2f2f2"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    >
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:id="@+id/a3"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/border_circle"
+                        android:text="C"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/a3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/option3"
+                        android:textSize="16sp"
+                        android:textColor="#666666"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#f2f2f2"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    >
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:id="@+id/a4"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/border_circle"
+                        android:text="D"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/a4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/option4"
+                        android:textSize="16sp"
+                        android:textColor="#666666"
+                        />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/visit"/>
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/tvanswers"
+            />
+    </RelativeLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

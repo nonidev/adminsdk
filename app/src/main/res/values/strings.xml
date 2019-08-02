@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Admin Console</string>
+
+    <string name="noti_channel_default">Secondary Channel</string>
+    <string name="visit">* Visit SarkariRank.com for daily updates &amp; news</string>
+
+</resources>

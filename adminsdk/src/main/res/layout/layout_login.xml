@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEmail"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:hint="Enter Email Address"
+            android:textColor="#000000"
+            android:cursorVisible="true"
+            android:background="@drawable/bg_login_et"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etNumber"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:hint="Enter Phone Number"
+            android:textColor="#000000"
+            android:cursorVisible="true"
+            android:background="@drawable/bg_login_et"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPassword"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:hint="Enter Password"
+            android:textColor="#000000"
+            android:cursorVisible="true"
+            android:background="@drawable/bg_login_et"
+            android:layout_marginBottom="20dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0099ff"
+            android:textColor="#ffffff"
+            android:id="@+id/btnSubmit"
+            android:text="Login"/>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

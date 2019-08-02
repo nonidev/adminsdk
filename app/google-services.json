@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "85166269157",
+    "firebase_url": "https://admin-console-app.firebaseio.com",
+    "project_id": "admin-console-app",
+    "storage_bucket": "admin-console-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85166269157:android:44424016729fa18c",
+        "android_client_info": {
+          "package_name": "com.test.adminconsole"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85166269157-j7dj7liquutk06d781m2hds0jf9tfg8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXhH0P9Ogw39VB4KcaPzI6qS0ob8WaUPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

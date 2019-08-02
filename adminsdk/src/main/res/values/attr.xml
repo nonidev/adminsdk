@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoginLayout">
+        <attr name="hasEmail" format="boolean"></attr>
+        <attr name="hasNumber" format="boolean"></attr>
+        <attr name="hasPassword" format="boolean"></attr>
+        <attr name="submitButtonText" format="string"></attr>
+        <attr name="submitButtonBackgroundColor" format="integer"></attr>
+        <attr name="submitButtonTextColor" format="integer"></attr>
+    </declare-styleable>
+</resources>
